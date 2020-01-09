@@ -1,0 +1,37 @@
+body {
+  background-color: #041b23!important;
+}
+.container{
+  background-color: black;
+  min-height: 100rem;
+}
+
+.logo-blog{
+
+  border: 2px solid white;
+}
+
+.slogan
+{
+  font-family: 'Caveat', cursive;
+  color: white!important;
+}
+
+i{
+  color:white;
+  padding: 10px;
+}
+
+.navegacion{
+  font-family: 'Roboto Slab', serif;
+
+}
+.card-img{
+  height:50vh!important;
+}
+
+@media (min-width:767px) {
+  .slogan{
+    margin-top: 5rem;
+  }
+}

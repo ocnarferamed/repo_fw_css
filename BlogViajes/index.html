@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<link href="C:\Users\ocnarf\Documents\NEXT_U\Curso Desarrollo Web\cursoFramewoksCSS\MaterializeCSS\EvaluacionFinal\BlogViajes\fontawesome-free-5.11.2-web\fontawesome-free-5.11.2-web\css\all.css" rel="stylesheet">
+<!--Importar la fuente de los íconos de Google-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Importar la hojas de estilos de materialize css-->
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<title>Materialize Practica</title>
+</head>
+  <body>
+    <div class="row fila-principal">
+
+        <div class="col s12  white-text blue lighten-2 barra-superior" >
+              <div class="row">
+                <div class="col s5 m4 l2 " >
+                  <img src="imagenes/logo.jpg" alt="logo" class="logo  responsive-img">
+                </div>
+                <div class="col s6 offset-s1 m8 l9 offset-l1 right contenedor-botones">
+
+                  <a class="btn btn-small  waves-effect waves-light grey " id="home">
+                    <label class="white-text hide-on-small-only" for="home">Inicio</label>
+                    <i class="material-icons left">home</i>
+                  </a>
+                  <a class="btn btn-small waves-effect waves-light grey " id="estuve-aqui">
+                    <label for="estuve-aqui" class="white-text hide-on-small-only">Estuve aqui</label>
+                     <i class="material-icons left">room</i>
+                   </a>
+                  <a class="btn btn-small waves-effect waves-light  grey " id="Mejores-lugares">
+                    <label for="mejores-luares" class="white-text hide-on-small-only">Mejores lugares</label>
+                    <i class="material-icons left">location_city</i></a>
+                  <a class="btn btn-small waves-effect waves-light  grey"><label for="recomendaciones" class="white-text hide-on-small-only">Recomendaciones</label> <i class="material-icons left">favorite</i></a>
+
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <h3  class="black-text center">Juntando historias...</h3>
+            </div>
+
+          </div>
+        <div class="row ">
+          <div class="col  l1 barra-lateral  hide-on-med-and-down left-align">
+            <div class="sidenav">
+            <a   href="#"><i class="fab fa-facebook  fa-3x "></i> </a>
+            <a  href="#"> <i class="fab fa-instagram fa-3x" ></i> </a>
+            <a  href="#"> <i class="fab fa-twitter fa-3x"></i> </a>
+            <a  href="#"> <i class="fab fa-linkedin fa-3x"></i> </a>
+          </div>
+        </div>
+        <div class="col  s12  m4 l4 col-galeria-1">
+          <img src="imagenes/calafate.jpg" class="responsive-img z-depth-3" alt="">
+          <img src="imagenes/ciudad.jpg"class="responsive-img  z-depth-3" alt="">
+        </div>
+        <div class="col s12  m4 l3 col-galeria-2">
+          <img src="imagenes/new orleans.jpg" class="responsive-img z-depth-3" alt="">
+        </div>
+        <div class="col s12 m4 l4 col-galeria-3">
+          <img src="imagenes/paris.jpg" class="responsive-img z-depth-3" alt="">
+          <img src="imagenes/playa.jpg"class="responsive-img z-depth-3"  alt="">
+        </div>
+      </div>
+
+      <div class="row"> <!-- publicaciones o entradas del blog -->
+        <div class="col s12  m7  l7 offset-l1 ">
+
+          <div class="card ">
+              <span class="card-title "> Mi viaje a Caminito.</span>
+              <div class="chip">
+                <i class="material-icons right">event</i>21/12/19
+              </div>
+              <div class="chip">
+                <i class="material-icons right">room</i>Caminito.Buenos Aires, Argentina.
+              </div>
+
+              <img src="imagenes/caminito.jpg"  class="left imagen-entrada1 " alt="">
+              <p  class="flow-text ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+
+             <p  class="flow-text  ">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m5 l4"> <!-- perfil del autor -->
+          <div class="card ">
+
+              <img src="imagenes/perfil.jpg" class="circle imagen-perfil" alt="foto de perfil del autor">
+              <h4 class="center-align"> Perfil del autor</h4>
+              <hr>
+                <p class="flow-text">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+        <div class="col s12 m7 l7 offset-l1 ">
+
+          <div class="card ">
+              <span class="card-title "> Visiting London</span>
+              <div class="chip">
+                <i class="material-icons right">event</i>21/12/19
+              </div>
+              <div class="chip">
+                <i class="material-icons right">room</i>London , UK.
+              </div>
+
+              <img src="imagenes/londres.jpg"  class="left imagen-entrada1 " alt="">
+              <p  class="flow-text ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+             <p  class="flow-text  ">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col  s12 m5 l7 offset-l1">
+          <!-- TARJETA PARA REALIZAR UN COMENTARIO, CONTIENE ICONOS  Y AREA DE TEXTO...................-->
+          <div class="card  white  z-depth-3">
+            <div class=" card-content">
+              <span class="red-text">Deja tu comentario!</span>
+              <form>
+              <div class="input-field">
+                <i class="material-icons prefix">perm_identity</i>
+                <input type="text" id="nombre" class="validate">
+                <label for="nombre" >nombre</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email" class="validate">
+                <label for="email" data-error="debes ingresar un email valido" >e-mail</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">comment</i>
+                <textarea id="comentario" class="materialize-textarea"></textarea>
+                <label for="comentario"> comentario</label>
+              </div>
+              <button type="submit" name="action" class="waves-effect waves-light red darken-2 white-text  " >Enviar</button>
+            </form>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

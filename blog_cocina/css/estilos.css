@@ -1,0 +1,63 @@
+body{
+  background-image:url("../img/fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div .entradas h3 {
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.busqueda {
+  width:80%;
+}
+
+.btnBusqueda{
+  width: 20%;
+}
+
+.titulo-blog-small h1{
+  font-size: 50px;
+}
+
+ h1  ,h2 ,h3 ,h5{
+  font-family:  pacifico, cursive;
+  color:white;
+}
+
+.columna-fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height:50rem;
+}
+
+.mennu {
+  width:100%;
+}
+
+.v{
+  margin-top:0.5%;
+  border-right: 1px solid white;
+  height:8rem;
+}
+
+ .columna-favoritos img {
+  margin-bottom: 10%;
+}
+
+.usuario {
+  border:1px dotted black;
+  border-radius: 20px;
+}
+
+.entradas  img {
+  width: 100%;
+}
+
+
+.badge{
+  font-size: 1rem;
+}
+
+.avatar-pequeño{
+  font-size: 0.8rem;
+}

@@ -1,0 +1,75 @@
+body{
+  background-image:url("../imagenes/monte.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.barra-lateral i{
+  color:#64b5f6;
+  margin: 8px;
+}
+
+.logo{
+  border-radius: 30px;
+  position: relative;
+  width: 20rem;
+  top: 45px;
+
+}
+.barra-superior{
+  min-height: 4rem;
+}
+
+.contenedor-botones{
+  margin-top: 5%;
+  align-content:center;
+
+}
+
+.col-galeria-1 img , .col-galeria-3 img {
+  min-height: 24rem;
+
+}
+
+.col-galeria-2 img {
+  min-height: 50rem;
+
+}
+
+.imagen-entrada1 {
+  width:50%;
+  height: auto;
+  margin: 10px;
+
+}
+
+.imagen-perfil {
+  border: 1px solid black;
+  width: 40%;
+  position:relative;
+  left: 30%;
+  margin-top: 5%;
+
+}
+hr {
+  width: 75%;
+}
+
+
+span , h3 , p {
+  font-family: italic;
+}
+
+  p{
+
+  font-size: 90% !important;
+  padding:7px;
+}
+
+@media (max-width:600px){
+  .contenedor-botones {
+    margin-top: 50px;
+  }
+}
